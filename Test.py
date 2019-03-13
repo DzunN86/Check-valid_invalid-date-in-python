@@ -4,15 +4,15 @@ def dayNum(m, d, y):
   febVar = (4*m + 23)//10
   
   if m<3:
-    return dayFormula-febVar
+    return dayFormula
   elif m>2:
     if y%4 == 0: #Possible leap year
       if y%100==0 and y%400 !=0:
-        return dayFormula-febVar        #Not a leap year
+        return dayFormula        #Not a leap year
       else:
         return dayFormula-febVar + 1      #A leap year
     else:
-      return dayFormula-febVar
+      return dayFormula
       
 def verifyDate(dateStr):
   day = eval(dateStr[0])
