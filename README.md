@@ -14,6 +14,6 @@ run code by:
 
 ```
 
-## About Laravel
+## About Python
 
 Python adalah bahasa pemrograman interpretatif multiguna dengan filosofi perancangan yang berfokus pada tingkat keterbacaan kode.
